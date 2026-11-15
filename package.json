@@ -1,0 +1,22 @@
+{
+  "name": "erc20-pending-tx-edu",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Educational demo: why pending ERC-20 transfers can appear on explorers without token balance",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "demo:sign": "tsx src/cli.ts sign",
+    "demo:explain": "tsx src/cli.ts explain",
+    "demo:broadcast": "tsx src/cli.ts broadcast",
+    "demo:decode": "tsx src/cli.ts decode"
+  },
+  "dependencies": {
+    "ethers": "^6.13.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
